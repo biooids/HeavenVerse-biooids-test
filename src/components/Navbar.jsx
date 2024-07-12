@@ -9,11 +9,13 @@ function Navbar() {
       <div className="w-full flex justify-between items-center font-semibold">
         <div className="flex items-center gap-2 ">
           <img
+            onClick={() => navigate(-1)}
             src={assets.arrow_left}
             className="w-8 bg-slate-700 rounded-2xl p-2 cursor-pointer"
             alt=""
           />
           <img
+            onClick={() => navigate(+1)}
             src={assets.arrow_right}
             className="w-8 bg-slate-700 rounded-2xl p-2 cursor-pointer"
             alt=""
