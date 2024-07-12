@@ -56,7 +56,7 @@ function Player() {
           >
             <hr
               ref={seekBar}
-              className="h-1 border-none w-10 bg-green-800 rounded-full"
+              className="h-1 border-none w-0 bg-green-800 rounded-full"
             />
           </div>
           <p>
